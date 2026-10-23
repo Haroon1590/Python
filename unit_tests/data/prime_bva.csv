@@ -1,0 +1,7 @@
+tc_id,number,expected,boundary
+B-P01,0,False,lowest valid input
+B-P02,1,False,just above lowest valid input
+B-P03,2,True,smallest prime
+B-P04,3,True,largest number in the 1<n<4 branch
+B-P05,4,False,first composite
+B-P06,25,False,first square reached by the 6k+-1 loop

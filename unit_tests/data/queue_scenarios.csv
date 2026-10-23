@@ -1,0 +1,7 @@
+tc_id,capacity,operations,expected_len,expected_first,expected_error
+Q-CSV-01,3,E:A|E:B,2,A,
+Q-CSV-02,3,E:A|E:B|D,1,B,
+Q-CSV-03,2,E:A|E:B|E:C,2,A,full
+Q-CSV-04,3,D,0,EMPTY,underflow
+Q-CSV-05,2,E:A|E:B|D|E:C,2,B,
+Q-CSV-06,1,E:X|D|E:Y,1,Y,
