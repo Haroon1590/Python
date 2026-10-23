@@ -1,0 +1,9 @@
+tc_id,number,expected,ecp_class
+A-P01,7,True,small odd prime
+A-P02,97,True,two-digit prime
+A-P03,7919,True,large prime (1000th)
+A-P04,100,False,even composite
+A-P05,27,False,odd multiple of 3
+A-P06,49,False,square of a prime
+A-P07,91,False,product of two primes (7x13)
+A-P08,104729,True,very large prime (10000th)

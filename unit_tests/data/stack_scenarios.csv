@@ -1,0 +1,7 @@
+tc_id,limit,pushes,pops,expected_size,expected_top,expected_error
+S-CSV-01,3,1;2;3,0,3,3,
+S-CSV-02,3,1;2;3,2,1,1,
+S-CSV-03,5,,0,0,,
+S-CSV-04,2,1;2;3,0,2,2,overflow
+S-CSV-05,3,7,2,0,,underflow
+S-CSV-06,1,9,1,0,,
